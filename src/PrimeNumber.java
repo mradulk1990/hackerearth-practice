@@ -1,10 +1,11 @@
+import java.util.Scanner;
 
 public class PrimeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		int upto = 100;
+		Scanner input = new Scanner(System.in);
+		int upto = input.nextInt();
 		for (int i=2; i<upto ; i++) {
 			int count = 0;
 			for(int j=2; j<upto; j++) {
